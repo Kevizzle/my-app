@@ -3,7 +3,6 @@ package com.example.application.views;
 
 import com.example.application.views.about.AboutView;
 import com.example.application.views.addressform.AddressFormView;
-import com.example.application.views.chat.ChatView;
 import com.example.application.views.checkoutform.CheckoutFormView;
 import com.example.application.views.creditcardform.CreditCardFormView;
 import com.example.application.views.imagelist.ImageListView;
@@ -133,7 +132,6 @@ public class MainLayout extends AppLayout {
 
                 new MenuItemInfo("Checkout Form", "la la-credit-card", CheckoutFormView.class), //
 
-                new MenuItemInfo("Chat", "la la-comments", ChatView.class), //
 
         };
     }
